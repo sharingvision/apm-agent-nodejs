@@ -88,6 +88,11 @@ ioredis:
       include: '>=5.0.0 <6'
     commands: node test/instrumentation/modules/ioredis.test.js
 
+oracledb:
+  - versions:
+      mode: latest-minors
+      include: '>=6.5.0 <7'
+
 pg:
   # We want this version range:
   #   versions: '>=4 <9'
